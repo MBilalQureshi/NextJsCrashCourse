@@ -37,5 +37,10 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 - npx create-next-app@latest .
+- npm run dev
 
-- layout.tsx is nothing but a wrapper. Whatever we pass in children it will be rendered. also Common header or footer could be inject here along with other stuff.
+- layout.tsx is nothing but a wrapper. Whatever we pass in children it will be rendered. also Common header or footer in all pages could be inject here along with other stuff.
+
+- page.tsx deals with client side rendering NOT the server side.
+
+- npm i axios bcryptjs jsonwebtoken nodemailer react-hot-toast mongoose
